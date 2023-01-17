@@ -1,6 +1,7 @@
 # curso-html-css
 Curso de HTML5 e CSS3
 
-> Não sei programar ainda
+> Próxima aula:
 
-> Terminar pirmeiro modúlo
+- Terminar modúlo 1 e upar exercícios
+- Começar curso de Git
