@@ -28,23 +28,34 @@
             display: block;
         }
 
-        a {            
-            color: #ffffff;
-            
+        a#bloco {            
+            color: chartreuse;
+        }
+
+        a#bloco:hover {            
+            color: #eeff00;
         }
 
         a:hover {
             color: #eeff00
         }
 
+        p {
+            font-size: larger;
+            font-weight: bolder;
+        }
+
     </style>
 </head>
 <body>
-    <h1>Hover</h1>
-    <div>Passe o mouse sobre o texto
-        <p><a href="pseudoclasse.html">Voltar</a></p>
-    </div>
+    <h1>Pseudo-classes</h1>
+    <div>Opção 1
+        <p><a href="pseudoclasse.html" id="bloco">Voltar</a></p>
+    </div>  
 
-    
+    <h1>Links</h1>
+    <div>Opção 2
+    <p><a href="links.html">Links</a></p>
+    </div>  
 </body>
 </html>

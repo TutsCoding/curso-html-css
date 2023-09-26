@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        * {
+            background-color: #E2E2E2;
+        }
+
+        h1 {
+            color: #007EA7;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        h2 {
+            color: #F6AE2D;
+            font-family: Arial, Helvetica, sans-serif;
+        } 
+
+
+        a {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.5em;
+        }
+
+
+        a:hover {
+            color: #FB3640
+        }
+        
+        a#esporte {
+            color: #06AA48;
+        }
+
+        a#esporte::before {
+            content: '⟶ ';
+        }
+
+        li {
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <h2>Visitados:</h2>
+    <ul>
+        <li><a href="https://www.google.com/">Google</a></li>
+        <li><a href="https://ge.globo.com/" id="esporte">Globo Esporte</a></li>
+        <li><a href="https://github.com/">Github</a></li>
+    </ul>
+
+    <h2>Não visitados:</h2>
+    <ul>
+        <li><a href="https://www.polishop.com.br/">POLISHOP</a></li>
+    </ul>
+
+    <br>
+
+    <p><a href="pseudoclasse.html">Voltar</a></p>
+    
+    
+</body>
+</html>
